@@ -1,0 +1,9 @@
+plugins {
+  id "java-library"
+}
+
+dependencies {
+  implementation project(":gmg-core")
+  implementation "commons-collections:commons-collections:3.1"
+  implementation "commons-httpclient:commons-httpclient:3.1"
+}
